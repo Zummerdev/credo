@@ -1430,6 +1430,7 @@ opacity:50% ;
 @media  (max-width: 440px) {
 
 
+ 
   .credo-text
   {
     color: #fff;
@@ -1537,18 +1538,66 @@ opacity:50% ;
   
  }
 
+ .item-list
+ {
+  margin-left: -48px;
+ }
+
+
+
+  .Contact-data
+  {
+    justify-content: center;
+  }
+
+
+input[type="text"] {
+ 
+    max-width: 150px;
+    margin-left: -50px;
+  
+}
+input[type="email"] {
+    max-width: 350px;
+    
+}
+ .Contact-heading
+ {
+  margin-left: 0;
+ }
  .footer
  {
   flex-direction: column;
   justify-content: flex-start;
   align-items: start;
-  margin-left: 7px;
+   margin-left: 15px;
+ }
+
+ .footer-item
+ {
+  justify-content: flex-start;
+  align-items: flex-start;
+ }
+
+ .footer-item-credo
+ {
+      max-width: 100%;
+ }
+
+ .footer-item h4 
+ {
+  margin-left: -10px;
  }
 
  .follow-me
  {
    
     align-items: flex-start;
+    margin-top: 50px;
+ }
+ .footer-links
+ {
+  margin-left: -55px;
  }
 }
 
