@@ -836,7 +836,7 @@ opacity:50% ;
 
   }
 
-@media  (max-width: 480px) {
+@media  (min-width: 480px) {
   .header {
  
   
