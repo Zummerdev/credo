@@ -1548,8 +1548,14 @@ opacity:50% ;
   .Contact-data
   {
     justify-content: center;
+    align-items: center;
+    margin-left: 0;
   }
 
+  .Message-button {
+  
+    margin-left: -31px;
+}
 
 input[type="text"] {
  
