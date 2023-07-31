@@ -1416,11 +1416,13 @@ opacity:50% ;
 }
 @media  (max-width: 412px) {
 
+
   .services-items img
   {
     width: 3rem;
+    margin-top: 2rem;
   }
-
+  
   .services-h
   {
      margin-left: 5rem;
@@ -1442,7 +1444,7 @@ opacity:50% ;
 
   >img 
   {
-    width: 23rem;
+    width: 80px;
   }
  }
 
