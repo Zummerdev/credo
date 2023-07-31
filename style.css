@@ -308,7 +308,7 @@ margin-top: 0;
 {
   >img
   {
-    width: 100%;
+    width: 550px;
     height: auto;
     margin-left: 50px;
   }
@@ -1444,7 +1444,7 @@ opacity:50% ;
 
   >img 
   {
-    width: 80px;
+    max-width: 22rem;
   }
  }
 
