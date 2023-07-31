@@ -1414,7 +1414,7 @@ opacity:50% ;
 
 
 }
-@media  (max-width: 412px) {
+@media  (min-width: 412px) {
 
 
   .services-items img
@@ -1436,7 +1436,6 @@ opacity:50% ;
   .About-me
   {
     margin-left: 0;
-    height:auto;
   }
 
  .about-me-1
@@ -1445,7 +1444,7 @@ opacity:50% ;
 
   >img 
   {
-    width: 23rem;
+    width: 80px;
   }
  }
 
