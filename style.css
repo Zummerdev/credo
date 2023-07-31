@@ -38,17 +38,16 @@ p
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 79vh;
+  height: 37rem;
   position: relative;
   
 }
 
 .navbar {
-  margin-left:0;
+  margin-left:2rem;
   display: flex;
   justify-content: center;
   background: transparent;
-  align-items: center;
   row-gap: 35px;
   padding: 0px 0;
   top: 0;
@@ -82,7 +81,9 @@ margin-top: 0;
 .navbar a.active
 {
   color: #dfdede;
-   font-weight: bold;
+  font-weight: 500;
+  stroke: #3e3e3e;
+
 }
 .navbar a:hover {
   background-color: #fff;
@@ -109,14 +110,17 @@ margin-top: 0;
 
 .credo-text  {
     position: absolute;
-    left: 50%;
+    left: 52.5%;
     transform: translate(-50%, -50%);
     margin-top: 29px;
     color: white;
     margin-left: -20px;
+   
     
   
 }
+
+
 
 .serv
 {
@@ -140,9 +144,11 @@ margin-top: 0;
 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  
   margin-top: 80px;
-  margin-left: 20px;
+  margin-left: 6rem;
+
+  
  
   
   
@@ -150,9 +156,9 @@ margin-top: 0;
 
 .h3-Craig
 {
-  margin-bottom: -50px;
+  margin-bottom: -70px;
  
-  
+ 
   
 
 }
@@ -165,36 +171,45 @@ margin-top: 0;
 .Text-Craig h3
 {
    color:white;
-  font-size: 30;
+  font-size: xxx-large;
   white-space: nowrap;
+  font-weight: 200;
     
 }
 
 .Text-Craig h6
 {
     color: grey;
-    font-size: small;
+    font-size: medium;
+    font-weight: 100;
+
+    
+
 }
 
 .Text-Craig p
 {
   color: #fff;
   width: 400;
+  font-weight: 100;
+  line-height: 1.8rem;
 }
 
 .Text-Craig button
 {
-    border-radius: 25px;
+    border-radius: 8rem;
     background-color: #eab154;
     border: none;
     color: white;
-    padding: 8;
+    padding: 10 15;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10;
-    margin: 4px 3px;
-    width: 90;
+    font-size: 11;
+    margin: 10px 3px;
+    width: 100;
+    font-weight:100;
+    
 
 }
 .services
@@ -203,7 +218,7 @@ margin-top: 0;
   
     FONT-WEIGHT: 100;
    background: rgba(235, 233, 233, 0.5);
-    height: 650px;
+    height: 40rem;
    
   
 
@@ -212,7 +227,7 @@ margin-top: 0;
 
 .services-h
 {
-    margin-left: 520px;
+    margin-left:32rem;
     margin-bottom: 70px;
     margin-top: -2px;
     font-weight: 400;
@@ -227,11 +242,10 @@ margin-top: 0;
     flex-direction: row;
     max-width: 1440px;
     flex-wrap: wrap;
-    margin: 0 auto;
-    align-items: center;
+   
     width: 100%;
     gap: 28px;
-    margin-left: 80px;
+  justify-content: center;
 
   
 }
@@ -282,12 +296,12 @@ margin-top: 0;
 .About-me
 {
   display: flex;
-  align-content: center;
   align-items: center;
-  margin-left: 0;
+  margin-left: 1rem;
   margin-top: 40px;
   max-width: 600px;
-  margin-right: 200px;
+
+  height: 40rem;
 }
 
 .about-me-1
@@ -398,7 +412,7 @@ margin-top: 0;
     background-color: #eab154;
     margin-top: 100px;
     color: white;
-    height: 79vh;
+    height:  auto;
     
 
 }
@@ -414,6 +428,7 @@ margin-top: 0;
     width: 100%;
     gap: 32px;
     margin-left: 320px;
+    height: 30rem;
 }
 
 .Quote-heading
@@ -503,7 +518,7 @@ opacity:50% ;
     
   
     FONT-WEIGHT: 100;
-    height: 140vh;
+    height: 50rem;
     background: rgba(235, 233, 233, 0.5);
    
   
@@ -651,7 +666,7 @@ opacity:50% ;
     background-color: #eab154;
     margin-top: 100px;
     color: white;
-    height: 120vh;
+    height: 45rem;
     
 
 }
@@ -756,11 +771,76 @@ opacity:50% ;
   }
   }
 
+  @media (min-width:1397px) {
+
+    .services-h
+    {
+      margin-left: 36rem;
+      >h 
+      {
+        font-weight: bold;
+        font-style: oblique;
+      }
+    }
+
+  
+    .navbar {
+    margin-left:1.5rem;
+    }
+
+    .credo-text  {
+  
+    left: 45rem;
+
+    }
+
+    .About-me
+   {
+ 
+  margin-left: 5rem;
+
+   }
+
+   .Quote-data
+   {
+    justify-content: center;
+    margin-left: 25rem;
+   }
+
+   .Quote-heading
+   {
+    >h1 
+    {
+     margin-top: 0;
+    }
+    
+   }
+
+   .Blog-h {
+    margin-left: 35rem;
+   }
+
+   .Blog-items
+   {
+    margin-left: 28rem;
+    justify-content: center;
+   }
+
+   .Contact-data {
+    margin-left: 0;
+   }
+
+   .Contact-heading {
+    margin-left: 40rem;
+   }
+
+  }
+
 @media  (max-width: 480px) {
   .header {
  
   
-    height: 65vh;
+    height: 30rem;
     
     
   }
@@ -783,9 +863,10 @@ opacity:50% ;
 .navbar ul
 {
   
-  top:55px;
- position: absolute;
-  height:49vh;
+ 
+      top: 3.5rem;
+    position: absolute;
+    height: 20rem;
   left: -100%;
   list-style: none;
   display: block;
@@ -838,18 +919,19 @@ opacity:50% ;
 
   .navbar li {
     padding: 10px;
-    margin-top: 0;
+   margin-top: 0.4rem;
 }
 
   .navbar li  a{
 
-    font-size: smaller;
+    font-size: medium;
 }
  
 .menu-btn
 {
     color: white;
     cursor: pointer;
+    margin-left: 2rem;
   
   
 }
@@ -871,26 +953,22 @@ opacity:50% ;
 
   .Text-Craig {
     margin-top: 20px;
+    margin-left: 0.7rem;
+  
    
   }
 
   .services
   {
-    height: 190vh;
+    height: 64rem;
   }
 
   .services-h {
-    margin-left: 105px;
+    margin-left: 7.5rem;
     margin-bottom: 20px;
   }
 
-  .services-items
-{
-   
-    margin-left: 15px;
-
-  
-}
+ 
 
 .item
 {
@@ -942,8 +1020,10 @@ opacity:50% ;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  margin-left: 150px;
+  margin-left: -2rem;
   margin-top: 30px;
+  height: 65rem;
+
 
  
   
@@ -1016,7 +1096,7 @@ opacity:50% ;
     background-color: #eab154;
     margin-top: -15px;
     color: white;
-    height: 79vh;
+    height: 32rem;
     width: auto;
     
 
@@ -1255,8 +1335,6 @@ opacity:50% ;
    
     .Message-button {
        margin-top: 50px;
-    /* margin-right: 450px; */
-    /* display: inline-block; */
     margin-left: 60px;
    
       }
@@ -1335,16 +1413,83 @@ opacity:50% ;
 }
 
 
+}
+@media  (max-width: 412px) {
+
+  .services-h
+  {
+     margin-left: 5rem;
+  }
+
+  .services
+  {
+    height: 80rem;
+  }
+
+  .About-me
+  {
+    margin-left: 0;
+  }
+
+ .about-me-1
+ {
+  margin-left: -2rem;
+
+  >img 
+  {
+    width: 23rem;
+  }
+ }
+
+ .about-me-2
+ {
+  margin-left: 0;
+ }
+ .about-me-bar
+ {
+    max-width: 390px;
+ }
+
+  .menu-btn
+ {
+  margin-left: 0.2rem;
+ }
+
+ .Quote
+ {
+  margin-left: -1rem;
+ }
+
+ .Quote-data
+ {
+  margin-left: 0.5rem;
+ }
 
 
 
+ .Quote-paragraph {
+    width: 350px;
+ }
 
+ .Blog-items
+ {
+  margin-left: 2rem;
+  max-width: 350px;
 
+ 
+ }
 
+ .Blog-h {
+    margin-left: 5rem;
+ }
 
+ .Blog-image img 
+ {
+   
 
-
-
-
+    width: 350px;
+  
+  
+ }
 
 }
